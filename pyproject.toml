@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-webrtc-stream"
+version = "1.0.0"
+description = "Sub-10ms 60fps Computer-Use WebRTC Video & Kinesthetic Streamer"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+agent-webrtc-stream = "agent_webrtc_stream.cli:main"
